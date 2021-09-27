@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik:wght@400;900&display=swap');
+$fonthead: 'Rubik', sans-serif;
+$contfont: 'Nunito', sans-serif;
+$bgColor: #151725;
+.footer{
+    background-color: rgb(50, 50, 95);
+    width: 100%;
+    position: static;
+    height: auto;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    padding: 10px;
+
+}
+.content p{
+    color: #fff;
+    font-size: 13px;
+    font-family: $contfont;
+}

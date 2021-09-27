@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik:wght@400;900&display=swap');
+$fonthead: 'Rubik', sans-serif;
+$contfont: 'Nunito', sans-serif;
+$bgColor: #151725;
+.main-container{
+    position: static;
+    width: 100%;
+    padding: 40px;
+    
+}
+.aboutme{
+    padding: 5px;
+    position: static;
+    float: left;
+    margin-top: 5%;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px rgb(40, 28, 54) solid ;
+    transition: .3s;
+    box-shadow: 0 4px 10px 0 rgba(56, 35, 35, 0.74);
+}
+.aboutme:hover{
+    box-shadow: 0 4px 10px 0 rgba(34, 21, 21, 0.74);
+}
+.aboutme h3{
+    font-family: $fonthead;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 25px;
+    text-align: center;
+    
+}
+.aboutme p{
+    padding: 10px;
+    font-family: $contfont;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 15px;
+}
+.myprofile{
+    padding-left: 40px;
+    width: 50%;
+    float: right;
+    display: flex;
+}
+.my-picture{
+    float: left;
+    width: 40%;
+}
+.my-picture img{
+    border-radius: 50%;
+    width: 85%;
+    border-top: 2px #fff solid;
+    box-shadow: 0 4px 10px 0 rgba(189, 66, 66, 0.74);
+    transition: .3s;
+    filter: sepia(90%);
+}
+.my-picture img:hover{
+    filter: none;
+}
+.my-name{
+    float: right;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.my-name h2{
+    font-family: $fonthead;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 25px;
+    
+    
+}
+.project{
+    position: static;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project h3{
+    font-size: 25px;
+    margin-left: -15%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    font-family: $fonthead;
+}
+.img-cont{
+    position: relative;
+    width: 85%;
+    overflow: hidden;
+    padding: 10px;
+}
+.img-cont img{
+    border-radius: 10px;
+    width: 100%;
+}
+.img-cont p{
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    font-family: $contfont;
+    font-size: 15px;
+}
+.img-cont sub{
+    color: rgb(211, 48, 19);
+    text-align: center;
+    font-family: $contfont;
+}
+.img-cont:hover > .visit{
+    display: block;
+    transition: .3s;
+}
+.visit{
+      position: absolute;
+      width: 100%;
+      display: none;
+      overflow: hidden;
+      top: 10px;
+      text-align: center;
+      padding-top: 125px;
+      transition: .3s;
+      animation-delay: .2s;
+      transition-duration: 1s;
+      height: 80%;
+      background: rgba(27, 23, 23, 0.486);
+      border-radius: 10px;
+}
+.visit a{
+    color: #fff;
+    background: #555;
+    padding: 10px;
+    text-decoration: none;
+    width: 40%;
+    border-radius: 5px;
+    font-family: $contfont;
+}
