@@ -31,3 +31,8 @@ $bgColor: #151725;
     width: 10%;
     border-radius: 50%;
 }
+@media only screen and (max-width: 400px,){
+    .title_image img{
+        width: 30%;
+    }
+}

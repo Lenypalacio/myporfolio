@@ -137,3 +137,21 @@ $bgColor: #151725;
     border-radius: 5px;
     font-family: $contfont;
 }
+.hidden{
+    display: block;
+}
+@media only screen and (max-width: 400px,){
+    .hidden{
+        display: block;
+        color: rgba(255, 255, 255, 0.63);
+        font-family: $contfont;
+        position: absolute;
+        top: 45%;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .main-container{
+        display: none;
+    }
+}
